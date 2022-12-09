@@ -1,0 +1,48 @@
+<!-- IIT406 - COMPUTER PROGRAMMING 3 -->
+<!-- Prof. Cristina D. de los Santos 
+	MONTEMAYOR, LEXINE RAE T. IT2A-->
+	
+	<!DOCTYPE html>
+ 
+
+ <html>
+
+     <head>
+	  <link rel="stylesheet" href="style.css"/>
+           <div class="header" id="header">
+               <p><span id="datetime" style="display:inline-block;"></span></p>
+			   <script>
+				var dt= new Date();
+					document.getElementById("datetime").innerHTML = dt.toLocaleString();
+				function refreshTime() {
+					const timeDisplay = document.getElementById("datetime");
+					const dateString = new Date().toLocaleString();
+					const formattedString = dateString.replace(", ", " - ");
+					timeDisplay.textContent = formattedString;}
+					setInterval(refreshTime, 1000);	
+			  </script>
+			  <br> <br>
+			  <p><img src="COAPH.png" id="cph" width="200" height="200" style="display:inline-block;">
+              <img src="PH.png" id="ph" width="1500" height="200" style="display:inline-block;"></p>
+			 		  
+           </div>
+     </head>
+  
+ <body>
+	<nav>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<div id="lexsidenav" class="sidebar">
+			
+			<a href="FinalProject-HTML-MONTEMAYOR,LEXINE.html" id="home"><img src="home.png" alt="home" width="50" height="50" class="pos_right"><span class="nav-item"></span></a>
+			<a href="aboutph.html" id="aboutph"><img src="about.png" alt="about"width="50" height="50" class="pos_right"><span class="nav-item"></span></a>
+			<a href="Tourist.html" id="attractions"><img src="tourist.png" alt="tourist" width="50" height="50" class="pos_right"><span class="nav-item"></span></a>
+			<a href="vidgal.html" id="vidgal"><img src="vid.png" alt="vid" width="50" height="50" class="pos_right"><span class="nav-item"></span></a>
+			<a href="loginform.html" id="login"><img src="login.png" alt="login" width="50" height="50" class="pos_right"><span class="nav-item"></span></a>
+			<a href="contactus.html" id="contact"><img src="contact-us.png" alt="contact us" width="50" height="50" class="pos_right"><span class="nav-item"></span></a>
+			</div>
+		
+	</nav>
+	</body>
+	<div class="footer"><p>Lexine Rae Montemayor. Copyright @2022. All Rights Reserved.</p></div>
+	
+	</html>

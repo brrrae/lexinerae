@@ -1,0 +1,331 @@
+html {
+	background-image: url('morefun1.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 100%; 
+	background-size: cover;
+	color: white;
+	
+}
+
+#header {
+	margin-left: 100px;
+}
+
+#header1 {
+	margin-left: 100px;
+	margin-right: 70px;
+	font-size: 30px;
+	text-align: justify;
+}
+
+#header2 {
+	margin-left: 100px;
+	margin-right: 70px;
+	top: 50px;
+	font-size: 100px;
+	text-align: center;
+}
+
+#header3 {
+	margin-left: 100px;
+	margin-right: 20px;
+	font-size: 100px;
+	text-align: justify;
+}
+
+#youtube {
+	text-align: center;
+	margin-left: 100px;
+	
+}
+
+#attractions1 {
+	text-align: center;
+}
+
+p {
+	font-size: 20px;
+}
+
+h1 {
+	font-size: 25px;
+}
+
+#history {
+	float: right;
+	margin:10px;
+}
+
+#geo {
+	float: right;
+	margin:10px;
+}
+
+#geo1 {
+	float: right;
+	margin:10px;
+}
+
+#culture {
+	float: right;
+	margin:10px;
+}
+
+#datetime {
+	margin-top: 20px;
+    margin-right: 70px;
+    font-size: 150%;
+    float: right;
+    color: #fff;
+    font-weight: bold;
+	font-family: Times new roman;
+}
+#lexsidenav a {
+  position: fixed;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 115px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  font-size: 18px;
+  height: 190px;
+  overflow: hidden;
+  float: left;
+}
+
+img.pos_right {
+  position: relative;
+  left: 70px;
+  top: 50px;
+}
+
+#lexsidenav a:hover {
+  left: 0;
+}
+
+#home {
+  top: 0px;
+  background-color: #355E3B;
+
+}
+
+#aboutph {
+  top: 150px;
+  background-color: #454B1B;
+}
+
+#attractions {
+  top: 300px;
+  background-color: #5F8575;
+}
+
+#vidgal {
+  top: 450px;
+  background-color:#215563;
+}
+
+#login {
+  top: 600px;
+  background-color: #5a7d96;
+}
+
+#contact {
+  top: 750px;
+  background-color:#414f52;
+}
+
+.login-form {
+	width: 300px;
+	height: 600px;
+	top: 40%;
+	left: 40%;
+	transform: translate(-40%,-40%);
+	position: absolute;
+	box-sizing: border-box;
+	margin-left: 10px;
+}
+
+.login-form h1 {
+	font-size: 30px;
+	text-align: center;
+	margin: 1px;
+	padding: 70px 30px;
+	color: black;
+	
+	
+}
+	
+.login-form img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: relative;
+	top: -50px;
+	left: calc(55% - 80px);
+}
+	
+.login-form p {
+	font-size: 15px;
+	margin: 20px 0;
+	text-align: center-left-side;
+	margin-left: 30px;
+	color: black;
+	
+}
+
+#entertext {
+	font-size: 16px;
+	width: 500px;
+	padding: 15px 10px;
+	border: 1px;
+	border-color: gray;
+	border-style: solid;
+	border-radius: 5px;
+	margin: 10px;
+}
+	
+.login-form button {
+	font-size: 13px;
+	font-weight: bold;
+	margin-left: 40px;
+	padding: 10px 15px;
+	width: 500px;
+	color: white; 
+	border-color: #77d67e;
+	background-color: #77d67e;
+	border-radius: 2px;
+	cursor: pointer;
+	position: relative;
+	
+	
+}
+#button1 {
+	padding: 12px;
+	font-size: 10px;
+	background-color: red;
+	text-align: left;
+	position: auto;
+	margin-left: 10px;
+	color: white;
+	font-weight: bold;
+	padding: 10px 15px;
+	width: 30%;
+	border-radius: 2px;
+	cursor: pointer;
+}
+
+#rememberme {
+	font-size: 10px;
+	margin-left: 40px;
+	position: relative; 
+	
+}
+
+
+#lpass {
+	text-decoration: underline;
+	cursor: auto;
+	font-size: 12px;
+	position: static;
+	float: right;
+	margin-right: 60px;
+	color: white;
+	
+}
+
+.border {
+	border: 5px solid black;
+	box-shadow: 2px 5px 5px 2px #888888;
+	margin: 2px;
+	width: 600px;
+	height: 700px;	
+	border-width: 10px;
+}
+
+#CUform {
+	width: 300px;
+	height: 600px;
+	top: 40%;
+	left: 40%;
+	transform: translate(-40%,-40%);
+	position: fixed;
+	color: #000;
+	box-sizing: border-box;
+	margin-left: 10px;
+}
+
+.form h1 {
+	font-size: 40px;
+	text-align: center-left;
+	margin-top: 1px;
+	margin-left: 1px;
+	padding: 50px;
+}
+
+#h2 {
+	font-size: 25px;
+	text-align: center-left;
+	
+}
+
+.form p {
+	font-size: 15px;
+	margin: 20px 0;
+	text-align: center-left-side;
+	margin-left: 30px;
+ }
+ 
+#yourname {
+	font-size: 16px;
+	width: 400px;
+	padding: 15px 10px;
+	border: 1px;
+	border-color: gray;
+	border-style: solid;
+	border-radius: 5px;
+	margin: 5px;
+
+ }
+	 
+ 
+#CU {
+	border: 5px solid black;
+	box-shadow: 2px 5px 5px 2px #888888;
+	margin: 2px;
+	width: 450px;
+	height: 600px;	
+	border-width: 10px;
+}
+
+#submit1 {
+	font-size: 13px;
+	font-weight: bold;
+	margin-left: 35px;
+	padding: 10px 10px;
+	width: 400px;
+	color: white; 
+	border-color: black;
+	background-color: black;
+	border-radius: 2px;
+	cursor: pointer;
+	position: relative;
+	text-align: center;
+}
+	
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   font-size: 20px;
+   color: white;
+   text-align: center;
+}
+
+
+
+	
